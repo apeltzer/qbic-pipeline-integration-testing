@@ -12,7 +12,7 @@ RELEASE=$1
 
 ##Run No1 of the integration test samples (WES data, somatic and germline)
 #Run Mapping first
-nextflow run nf-core/sarek -profile cfc -r ${RELEASE} --genome 'GRCh37' --input 'sarek-testsets/wes_input.tsv' --outDir "results/sarek/wes" -resume
+nextflow run nf-core/sarek -profile cfc -r ${RELEASE} --genome 'GRCh37' --input 'sarek-testsets/wes_input.tsv' --outDir "results/sarek/wes"
 
 ## Probably completely outdated stuff now!
 

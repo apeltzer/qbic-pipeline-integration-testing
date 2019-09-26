@@ -1,0 +1,7 @@
+work/
+.nextflow/
+results/
+.nextflow.*
+sarek
+rnaseq
+test
